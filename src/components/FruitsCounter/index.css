@@ -1,0 +1,54 @@
+.container {
+  background-color: rgb(233, 196, 75);
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruitsCounterCon {
+  background-color: azure;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading {
+  color: black;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.buttonImgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fruits {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.image {
+  width: 50%;
+  height: 50%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: 0px solid;
+  margin-top: 15px;
+  padding: 8px;
+  color: white;
+}
